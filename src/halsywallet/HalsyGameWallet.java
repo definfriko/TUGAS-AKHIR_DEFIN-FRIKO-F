@@ -120,6 +120,8 @@ public class HalsyGameWallet extends javax.swing.JFrame {
             }
         });
         jPanel2.add(rb_lima, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 162, 102, -1));
+
+        text_harga.setEditable(false);
         jPanel2.add(text_harga, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 206, 102, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 210, 250));
@@ -195,6 +197,7 @@ public class HalsyGameWallet extends javax.swing.JFrame {
         });
         jPanel1.add(text_jumlah, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 110, -1));
 
+        text_total.setEditable(false);
         text_total.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 text_totalActionPerformed(evt);
@@ -213,6 +216,8 @@ public class HalsyGameWallet extends javax.swing.JFrame {
             }
         });
         jPanel1.add(text_bayar, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 110, -1));
+
+        text_kembali.setEditable(false);
         jPanel1.add(text_kembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 270, 110, -1));
 
         text_pesan.addActionListener(new java.awt.event.ActionListener() {
